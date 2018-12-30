@@ -1,1 +1,44 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header.masthead {
+      background: url('img/bg-masthead.jpg');
+      margin-top: 0%;
+      height: 100%;
+  }
+  #navCustom {
+    margin-bottom: 0%; 
+    position: fixed; 
+    margin-top: 0%; 
+    width: 100%;
+    overflow: hidden;
+    z-index:300;
+  }
+  body {
+      background-color: #f8f9fa!important;
+  }
+  #team {
+      background-image: url('img/bg-masthead.jpg');
+      margin-bottom: 2%;
+      margin-top: 0%
+  }
+
+  #Companyimage {
+    background-image: url('img/company.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-bottom: 2%;
+  }
+  #vision {
+    background-image: url('img/vision.jpg');
+    background-repeat: no-repeat; 
+    height: 500px;
+    margin-bottom: 2%;
+  }
+
+  .companyVision {
+      background-color: white !important;
+  }
